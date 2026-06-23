@@ -74,6 +74,7 @@ dependencies {
     implementation(libs.androidx.constraint.layout)
     implementation(libs.androidx.core.ktx)
     implementation("androidx.palette:palette-ktx:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
 
     testImplementation(libs.junit)
 
