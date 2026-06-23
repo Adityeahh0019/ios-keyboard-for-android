@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/keyboard_container.xml -->
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_root"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:elevation="8dp"
+    android:background="@drawable/keyboard_background">
+
+    <!-- Frosted Blur overlay / translucency sheet -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp">
+
+        <!-- iOS QWERTY Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp"
+            android:gravity="center">
+            <!-- Add keyboard buttons here (refer to guide) -->
+        </LinearLayout>
+
+        <!-- Additional Rows go here -->
+
+    </LinearLayout>
+</FrameLayout>
