@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<input-method xmlns:android="http://schemas.android.com/apk/res/android" />
+<!-- res/xml/method.xml -->
+<input-method 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.example.ioskeyboard.SettingsActivity">
+    
+    <subtype
+        android:icon="@drawable/ic_keyboard_subtype"
+        android:label="English (US) - iOS Look"
+        android:imeSubtypeLocale="en_US"
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeExtraValue="KeyboardLayoutType=qwerty" />
+</input-method>
