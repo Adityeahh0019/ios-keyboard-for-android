@@ -73,6 +73,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraint.layout)
     implementation(libs.androidx.core.ktx)
+    implementation("androidx.palette:palette-ktx:1.0.0")
 
     testImplementation(libs.junit)
 
