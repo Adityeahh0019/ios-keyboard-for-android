@@ -11,10 +11,11 @@ val APP_VERSION_CODE : String by project
 val APP_ID : String by project
 
 android {
-    compileSdk = libs.versions.compile.sdk.version.get().toInt()
+    compileSdk = 37
 
     defaultConfig {
         minSdk = libs.versions.min.sdk.version.get().toInt()
+        targetSdk = 37
         namespace = APP_ID
 
         applicationId = APP_ID
