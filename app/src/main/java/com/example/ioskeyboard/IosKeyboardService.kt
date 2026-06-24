@@ -1,6 +1,7 @@
 package com.example.ioskeyboard
 import com.example.ioskeyboard.R
 
+import com.ncorti.kotlin.template.app.R
 import android.inputmethodservice.InputMethodService
 import android.view.View
 import android.view.HapticFeedbackConstants
@@ -25,6 +26,7 @@ class IosKeyboardService : InputMethodService() {
     override fun onCreateInputView(): View {
         // Inflate the main keyboard layout container
         val keyboardView = layoutInflater.inflate(R.layout.keyboard_container, null)
+        val something = myView.findViewById<View>(R.id.something)
         keyboardContainer = keyboardView.findViewById(R.id.keyboard_root)
 
         // Apply Glassmorphism / Blur Effect if enabled (Android 12+)
