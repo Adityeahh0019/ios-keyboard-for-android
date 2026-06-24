@@ -10,10 +10,11 @@ plugins {
 }
 
 android {
-    compileSdk = libs.versions.compile.sdk.version.get().toInt()
+    compileSdk = 37
 
     defaultConfig {
         minSdk = libs.versions.min.sdk.version.get().toInt()
+        targetSdk = 37
         namespace = "com.ncorti.kotlin.template.library.android"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
