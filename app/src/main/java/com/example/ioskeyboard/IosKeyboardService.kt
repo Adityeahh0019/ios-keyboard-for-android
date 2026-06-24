@@ -1,4 +1,5 @@
 package com.example.ioskeyboard
+import com.example.ioskeyboard.R
 
 import android.inputmethodservice.InputMethodService
 import android.view.View
